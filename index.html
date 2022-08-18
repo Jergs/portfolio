@@ -1,61 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-    <link href="css/all.css" rel="stylesheet" type="text/css"/>
-    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
-  </head>
-  <body>
-      <div id="title" class="slide header">
-        <h1 style="margin-bottom: 15%;">Hi, my name is Yehor Havryliuk, and I am a Backend Java Developer</h1>
-        <p>Yehor Havryliuk</p>
-      </div>
-        <div id="slide1" class="slide">
-        <div class="title">
-          <h1>Personal Info</h1>
-          <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum at. Id viris docendi denique vim.</p>
-        </div>
-      </div>
-      <div id="slide2" class="slide">
-        <div class="title">
-          <h1>Project 1</h1>
-          <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum at. Id viris docendi denique vim.</p>
-        </div>
-        <img src="img/background2.jpg">
-        <img src="img/background2.jpg">
-        <img src="img/background2.jpg"> 
-      </div>
-      <div id="slide3" class="slide">
-        <div class="title">
-          <h1>Project 2</h1>
-          <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum at. Id viris docendi denique vim.</p>
-        </div>
-        <img src="img/background2.jpg">
-        <img src="img/background2.jpg"> 
-      </div>
 
-      <div id="slide4" class="slide footer">
-          <h1 style="margin-top: 3%;">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</h1>
-          <h1 style="margin-top: 0;">– Martin Fowler</h1>
-          <h1 style="font-size:180%;">Open for communication:</h1>
-          <div class="socials">
-            <ul>
-              <li><a href="https://www.instagram.com/yehor_havryliuk/" target="_blank"><i class="fa-brands fa-instagram instagram"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/yehor-havryliuk/" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
-              <li><a href="https://github.com/Jergs?tab=repositories/" target="_blank"><i class="fa-brands fa-github github"></i></a></li>
-            </ul>
-          </div>
-          <h1 style="font-size:180%; margin-top: 9%;">yehor.havryliuk@gmail.com</h1>
-      </div>
-      <div class="socials">
-        <ul>
-          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram instagram"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/yehor-havryliuk/" target="_blank"><i class="fa-brands fa-linkedin linkedin"></i></a></li>
-          <li><a href="https://github.com/Jergs?tab=repositories/" target="_blank"><i class="fa-brands fa-github github"></i></a></li>
-        </ul>
-      </div>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="css/all.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="title" class="slide header">
+    <h1 style="margin-bottom: 15%;">Hi, my name is Yehor Havryliuk, and I am the Backend Java Developer</h1>
+    <p style="font-family: 'Allan'">Yehor Havryliuk</p>
+  </div>
+  <div id="slide1" class="slide">
+    <div class="title">
+      <h1>Personal Info</h1>
+      <table>
+        <tr>
+          <td>Age: 23</td>
+        </tr>
+        <tr>
+          <td>Occupation: Spring Java Developer at Alfa-Bank Ukraine</td>
+        </tr>
+        <tr>
+          <td>City: Kharkiv, Ukraine</td>
+        </tr>
+        <tr>
+          <td>Passport: Ukrainian, International</td>
+        </tr>
+        <tr>
+          <td>Marriage status: Not married</td>
+        </tr>
+      </table>
+      <img src="img/profile-photo.jpg" onContextMenu="return false;">
+    </div>
+  </div>
+  <div id="slide2" class="slide">
+    <div class="title" style="padding-bottom: 2%;">
+      <h1>Education</h1>
+      <table>
+        <tr>
+          <th>Bachelor's degree</th>
+          <th>Master's degree</th>
+        </tr>
+        <tr>
+          <td>V.N. Karazin Kharkiv National University, Ukraine.</td>
+          <td>V.N. Karazin Kharkiv National University, Ukraine.</td>
+        </tr>
+        <tr>
+          <td style="text-decoration: underline;">List of the best students, GPA: 95/100.</td>
+          <td style="text-decoration: underline;">List of the best students, GPA: 95/100.</td>
+        </tr>
+        <tr>
+          <td>Faculty of Computer Science. Department of Artificial Intelligence and Software.</td>
+          <td>Faculty of Computer Science. Department of Artificial Intelligence and Software.</td>
+        </tr>
+      </table>
+      <p>No, it's not a copy-paste error. It's actually it :)</p>
+    </div>
+    <img style="padding: -10%;" src="img/diploma-bachelor.jpeg" onContextMenu="return false;">
+    <img src="img/diploma-master.jpeg" onContextMenu="return false;">
+  </div>
+  <div id="slide3" class="slide">
+    <div class="title">
+      <h1>Project 2</h1>
+      <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam.
+        Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset.
+        Labores perpetua cum at. Id viris docendi denique vim.</p>
+    </div>
+    <img src="img/background2.jpg" onContextMenu="return false;">
+    <img src="img/background2.jpg" onContextMenu="return false;">
+  </div>
+
+  <div id="slide4" class="slide footer">
+    <h1 style="margin-top: 3%;">“Any fool can write code that a computer can understand. Good programmers write code
+      that humans can understand.”</h1>
+    <h1 style="margin-top: 0;">– Martin Fowler</h1>
+    <h1 style="font-size:180%;">Open for communication:</h1>
+    <div class="socials">
+      <ul>
+        <li><a href="https://www.instagram.com/yehor_havryliuk/" target="_blank"><i
+              class="fa-brands fa-instagram instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/yehor-havryliuk/" target="_blank"><i
+              class="fa-brands fa-linkedin linkedin"></i></a></li>
+        <li><a href="https://github.com/Jergs?tab=repositories/" target="_blank"><i
+              class="fa-brands fa-github github"></i></a></li>
+      </ul>
+    </div>
+    <h1 style="font-size:180%; margin-top: 9%;">yehor.havryliuk@gmail.com</h1>
+  </div>
+  <div class="socials">
+    <ul>
+      <li><a href="https://www.instagram.com/yehor_havryliuk/" target="_blank"><i
+            class="fa-brands fa-instagram instagram"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/yehor-havryliuk/" target="_blank"><i
+            class="fa-brands fa-linkedin linkedin"></i></a></li>
+      <li><a href="https://github.com/Jergs?tab=repositories/" target="_blank"><i
+            class="fa-brands fa-github github"></i></a></li>
+    </ul>
+  </div>
+</body>
+
 </html>
